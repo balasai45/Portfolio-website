@@ -228,7 +228,7 @@ font-family: 'Roboto Serif', sans-serif;
   position: absolute;
   height: calc(70vmin + 2px);
   width: calc(40vmin + 2px);
-  background-image: url("Images/about2.jpeg");
+  background-image: url("Images/about2.jpg");
   background-size: cover;
   transform: rotate(90deg);
   opacity: 0;
