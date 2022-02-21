@@ -220,7 +220,7 @@ font-family: 'Roboto Serif', sans-serif;
   width: 60vmin;
   border-radius: 5vmin;
   overflow: hidden;
-  background-image: url("images/background.jpeg");
+  background-image: url("Images/background.jpeg");
   background-size: cover;
   box-shadow: 10px 10px 5px gray;
 }
