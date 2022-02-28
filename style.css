@@ -136,7 +136,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-/*   background: url("Images/background.jpeg") no-repeat; */
+  
   background-size: cover ;
   background-position: center;
   background-attachment: fixed;
@@ -150,11 +150,11 @@ animation-name: example;
   animation-direction: alternate;
 }
 @keyframes example {
-  from {background: url("Images/background.jpeg") no-repeat;
+  from {background: url("images/background.jpeg") no-repeat;
    
   background-position: center;
   }
-  to {background: url("Images/about2.jpg") no-repeat;
+  to {background: url("images/about2.jpg") no-repeat;
     
     background-position: center;}
 }
@@ -723,12 +723,15 @@ footer .text span a:hover{
     width: calc(100% / 2 - 20px);
   }
 }
+
 @media (max-width: 900px) {
   .about .left img{
     height: 350px;
     width: 350px;
   }
+
 }
+
 
 @media (max-width: 750px) {
   nav .navbar{
@@ -796,7 +799,9 @@ footer .text span a:hover{
   .contact .text{
     width: 100%;
 }
+
 }
+
 
 @media (max-width: 500px){
   .home .text-two{
@@ -813,4 +818,5 @@ footer .text span a:hover{
     width: calc(100% / 2 - 20px);
     margin: 20px 10px;
    }
+   
 }
